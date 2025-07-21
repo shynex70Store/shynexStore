@@ -37,13 +37,6 @@ const MainLayout = () => {
                 </Stack>
             </Stack>
             <Divider />
-            {/* <Stack direction={'row'} padding={1} width={'calc(100% - 16px)'} justifyContent={'center'}>
-                <ButtonGroup variant="outlined" aria-label="Loading button group">
-                    <Button color='inherit'>Pantalones</Button>
-                    <Button color='inherit'>Camisas</Button>
-                    <Button color='inherit'>Gorras</Button>
-                </ButtonGroup>
-            </Stack> */}
             <Stack width={'calc(100% - 32px)'} direction={'row'} justifyContent={'center'} padding={2} sx={{ backgroundColor: '#FFF' }}>
                 <Stack width={'70%'}>
                     <Grid
