@@ -17,7 +17,7 @@ const ProductCard: FunctionComponent<Product> = (
             <Stack direction={'row'} width={'100%'} justifyContent={'center'}>
                 <CardMedia
                     component='img'
-                    image={`./src/Images/${urlImage}`}
+                    image={`/Images/${urlImage}`}
                 />
             </Stack>
             <CardContent>
