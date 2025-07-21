@@ -29,7 +29,7 @@ const MainLayout = () => {
                 direction={'row'}
                 justifyContent={'space-between'}
             >
-                <img src={'./src/Images/logoShynexSinFondo.png'} />
+                <img src={'/Images/logoShynexSinFondo.png'} />
                 <Stack direction={'row'} gap={1} height={'auto'}>
                     <IconButton aria-label="whatsapp" color='success' size='large' onClick={openWhatsAppWindow}>
                         <WhatsApp fontSize='large' sx={{ color: '#4ccb5a' }} />
