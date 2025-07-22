@@ -14,7 +14,7 @@ const MainLayout = () => {
     }, []);
 
     const openWhatsAppWindow = () => {
-        window.open('https://wa.me/+573235883417','_blank');
+        window.open('https://wa.me/+573223840013','_blank');
     }
 
     return (
